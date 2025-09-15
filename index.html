@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daffa - Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+    
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="logo-text">DaffaWorks</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero-section d-flex align-items-center" id="home">
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 col-12">
+                    <div class="hero-content text-center">
+                        <h1 class="main-title">I'm Daffa</h1>
+                        <p class="sub-title">
+                            <span id="typing-text"></span>
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="#portfolio" class="btn btn-primary-custom me-3 mb-2">
+                                <i class="fas fa-eye me-2"></i>View My Work
+                            </a>
+                            <a href="#contact" class="btn btn-outline-custom mb-2">
+                                <i class="fas fa-envelope me-2"></i>Contact Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="social-icons d-none d-lg-block">
+            <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section class="about-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+                    <div class="about-image-container">
+                        <div class="about-image-wrapper">
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-icon" style="top: 10%; left: 10%;"><i class="fas fa-code"></i></div>
+                                <div class="floating-icon" style="top: 20%; right: 15%;"><i class="fas fa-palette"></i></div>
+                                <div class="floating-icon" style="bottom: 30%; left: 5%;"><i class="fas fa-chart-line"></i></div>
+                                <div class="floating-icon" style="bottom: 15%; right: 10%;"><i class="fas fa-lightbulb"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-content">
+                        <div class="section-label">
+                            <span class="label-text">About Me</span>
+                        </div>
+                        <h2 class="about-title">
+                            Passionate About Creating 
+                            <span class="highlight-text">Digital Experiences</span>
+                        </h2>
+                        <p class="about-description">
+                            An Undip Economics student with a passion for web development and design, combining business thinking with creative tech skills. I love creating digital experiences that are both beautiful and functional.
+                        </p>
+                        
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="skill-content">
+                                    <h4>Economics Student</h4>
+                                    <p>Business-minded approach</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                                <div class="skill-content">
+                                    <h4>Web Developer</h4>
+                                    <p>Modern tech solutions</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                                <div class="skill-content">
+                                    <h4>UI/UX Designer</h4>
+                                    <p>Beautiful interfaces</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-rocket"></i></div>
+                                <div class="skill-content">
+                                    <h4>Creative Thinker</h4>
+                                    <p>Innovative solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-cta">
+                            <a href="#" class="btn btn-primary-custom me-3" onclick="downloadCV(event)">
+                                <i class="fas fa-download me-2"></i>Download CV
+                            </a>
+                            <a href="#" class="btn btn-outline-custom" onclick="scrollToContact(event)">
+                                <i class="fas fa-comments me-2"></i>Let's Talk
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="about-bg-elements">
+            <div class="bg-circle bg-circle-1"></div>
+            <div class="bg-circle bg-circle-2"></div>
+            <div class="bg-circle bg-circle-3"></div>
+        </div>
+    </section>
+    
+    <section class="skills-section py-5" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <div class="section-label">
+                        <span class="label-text">My Skills</span>
+                    </div>
+                    <h2 class="skills-title">
+                        Technologies I <span class="highlight-text">Master</span>
+                    </h2>
+                    <p class="skills-subtitle">
+                        Interactive showcase of my technical expertise
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="tech-showcase-grid">
+                        <div class="tech-showcase-item" data-tech="HTML5" data-level="Expert" data-color="#E34F26">
+                            <div class="tech-logo"><i class="fab fa-html5"></i></div>
+                            <div class="tech-info"><h4>HTML5</h4><span class="tech-level">Expert</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="CSS3" data-level="Expert" data-color="#1572B6">
+                            <div class="tech-logo"><i class="fab fa-css3-alt"></i></div>
+                            <div class="tech-info"><h4>CSS3</h4><span class="tech-level">Expert</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="JavaScript" data-level="Advanced" data-color="#F7DF1E">
+                            <div class="tech-logo"><i class="fab fa-js-square"></i></div>
+                            <div class="tech-info"><h4>JavaScript</h4><span class="tech-level">Advanced</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="React" data-level="Advanced" data-color="#61DAFB">
+                            <div class="tech-logo"><i class="fab fa-react"></i></div>
+                            <div class="tech-info"><h4>React</h4><span class="tech-level">Advanced</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="Node.js" data-level="Intermediate" data-color="#339933">
+                            <div class="tech-logo"><i class="fab fa-node-js"></i></div>
+                            <div class="tech-info"><h4>Node.js</h4><span class="tech-level">Intermediate</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="Bootstrap" data-level="Expert" data-color="#7952B3">
+                            <div class="tech-logo"><i class="fab fa-bootstrap"></i></div>
+                            <div class="tech-info"><h4>Bootstrap</h4><span class="tech-level">Expert</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="Sass" data-level="Advanced" data-color="#CC6699">
+                            <div class="tech-logo"><i class="fab fa-sass"></i></div>
+                            <div class="tech-info"><h4>Sass</h4><span class="tech-level">Advanced</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="Git" data-level="Advanced" data-color="#F05032">
+                            <div class="tech-logo"><i class="fab fa-git-alt"></i></div>
+                            <div class="tech-info"><h4>Git</h4><span class="tech-level">Advanced</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="GitHub" data-level="Advanced" data-color="#181717">
+                            <div class="tech-logo"><i class="fab fa-github"></i></div>
+                            <div class="tech-info"><h4>GitHub</h4><span class="tech-level">Advanced</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="Figma" data-level="Advanced" data-color="#F24E1E">
+                            <div class="tech-logo"><i class="fab fa-figma"></i></div>
+                            <div class="tech-info"><h4>Figma</h4><span class="tech-level">Advanced</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="Vue.js" data-level="Intermediate" data-color="#4FC08D">
+                            <div class="tech-logo"><i class="fab fa-vuejs"></i></div>
+                            <div class="tech-info"><h4>Vue.js</h4><span class="tech-level">Intermediate</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                        <div class="tech-showcase-item" data-tech="WordPress" data-level="Advanced" data-color="#21759B">
+                            <div class="tech-logo"><i class="fab fa-wordpress"></i></div>
+                            <div class="tech-info"><h4>WordPress</h4><span class="tech-level">Advanced</span></div>
+                            <div class="tech-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="skills-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="12">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="3">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="50">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="100">0</div>
+                            <div class="stat-label">Satisfaction Rate</div>
+                            <span class="stat-suffix">%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-bg-elements">
+            <div class="skills-bg-shape skills-bg-shape-1"></div>
+            <div class="skills-bg-shape skills-bg-shape-2"></div>
+            <div class="skills-bg-shape skills-bg-shape-3"></div>
+        </div>
+    </section>
+
+    <section class="portfolio-section py-5" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <div class="section-label">
+                        <span class="label-text">My Portfolio</span>
+                    </div>
+                    <h2 class="portfolio-title">
+                        Featured <span class="highlight-text">Projects</span>
+                    </h2>
+                    <p class="portfolio-subtitle">
+                        Explore my latest work in development and design
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 col-md-10">
+                    <div class="portfolio-filters">
+                        <button class="filter-btn active" data-filter="all">
+                            <i class="fas fa-th-large me-2"></i>All Projects
+                        </button>
+                        <button class="filter-btn" data-filter="development">
+                            <i class="fas fa-code me-2"></i>Development
+                        </button>
+                        <button class="filter-btn" data-filter="design">
+                            <i class="fas fa-paint-brush me-2"></i>Design
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item" data-category="development">
+                            <div class="portfolio-card">
+                                <div class="portfolio-image">
+                                    <div class="project-placeholder development-bg">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-actions">
+                                            <button class="action-btn" onclick="viewProject('E-Commerce Platform')">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn" onclick="viewCode('E-Commerce Platform')">
+                                                <i class="fas fa-code"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <div class="project-category">Development</div>
+                                    <h4 class="project-title">E-Commerce Platform</h4>
+                                    <p class="project-description">Modern online shopping platform built with React and Node.js</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">Node.js</span>
+                                        <span class="tech-tag">MongoDB</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-category="development">
+                            <div class="portfolio-card">
+                                <div class="portfolio-image">
+                                    <div class="project-placeholder development-bg">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-actions">
+                                            <button class="action-btn" onclick="viewProject('Task Management App')">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn" onclick="viewCode('Task Management App')">
+                                                <i class="fas fa-code"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <div class="project-category">Development</div>
+                                    <h4 class="project-title">Task Management App</h4>
+                                    <p class="project-description">Responsive web app for team collaboration and project tracking</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Vue.js</span>
+                                        <span class="tech-tag">Firebase</span>
+                                        <span class="tech-tag">CSS3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-category="development">
+                            <div class="portfolio-card">
+                                <div class="portfolio-image">
+                                    <div class="project-placeholder development-bg">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-actions">
+                                            <button class="action-btn" onclick="viewProject('Analytics Dashboard')">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn" onclick="viewCode('Analytics Dashboard')">
+                                                <i class="fas fa-code"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <div class="project-category">Development</div>
+                                    <h4 class="project-title">Analytics Dashboard</h4>
+                                    <p class="project-description">Real-time data visualization dashboard with interactive charts</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">JavaScript</span>
+                                        <span class="tech-tag">D3.js</span>
+                                        <span class="tech-tag">API</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-category="design">
+                            <div class="portfolio-card">
+                                <div class="portfolio-image">
+                                    <div class="project-placeholder design-bg">
+                                        <i class="fas fa-palette"></i>
+                                    </div>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-actions">
+                                            <button class="action-btn" onclick="viewProject('Brand Identity Design')">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn" onclick="viewDesign('Brand Identity Design')">
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <div class="project-category">Design</div>
+                                    <h4 class="project-title">Brand Identity Design</h4>
+                                    <p class="project-description">Complete brand identity package for a tech startup</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Figma</span>
+                                        <span class="tech-tag">Illustrator</span>
+                                        <span class="tech-tag">Branding</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-category="design">
+                            <div class="portfolio-card">
+                                <div class="portfolio-image">
+                                    <div class="project-placeholder design-bg">
+                                        <i class="fas fa-desktop"></i>
+                                    </div>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-actions">
+                                            <button class="action-btn" onclick="viewProject('UI/UX Design System')">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn" onclick="viewDesign('UI/UX Design System')">
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <div class="project-category">Design</div>
+                                    <h4 class="project-title">UI/UX Design System</h4>
+                                    <p class="project-description">Comprehensive design system for a fintech application</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Figma</span>
+                                        <span class="tech-tag">Prototyping</span>
+                                        <span class="tech-tag">UI/UX</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-category="design">
+                            <div class="portfolio-card">
+                                <div class="portfolio-image">
+                                    <div class="project-placeholder design-bg">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-actions">
+                                            <button class="action-btn" onclick="viewProject('Mobile App Design')">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn" onclick="viewDesign('Mobile App Design')">
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <div class="project-category">Design</div>
+                                    <h4 class="project-title">Mobile App Design</h4>
+                                    <p class="project-description">Modern mobile app interface for food delivery service</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Sketch</span>
+                                        <span class="tech-tag">Principle</span>
+                                        <span class="tech-tag">Mobile UI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <button class="btn btn-outline-custom load-more-btn" onclick="loadMoreProjects()">
+                        <i class="fas fa-plus me-2"></i>Load More Projects
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="portfolio-bg-elements">
+            <div class="portfolio-bg-shape portfolio-bg-shape-1"></div>
+            <div class="portfolio-bg-shape portfolio-bg-shape-2"></div>
+            <div class="portfolio-bg-shape portfolio-bg-shape-3"></div>
+        </div>
+    </section>
+
+    <footer class="footer-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="footer-brand">
+                        <h3 class="footer-logo">DaffaWorks</h3>
+                        <p class="footer-description">
+                            Creating digital experiences that combine beautiful design with powerful functionality. Let's build something amazing together.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link" data-platform="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link" data-platform="github"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link" data-platform="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" data-platform="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" data-platform="dribbble"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <div class="footer-links">
+                        <h4 class="footer-title">Navigation</h4>
+                        <ul class="footer-menu">
+                            <li><a href="#home" class="footer-link">Home</a></li>
+                            <li><a href="#about" class="footer-link">About</a></li>
+                            <li><a href="#skills" class="footer-link">Skills</a></li>
+                            <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                            <li><a href="#contact" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="footer-services">
+                        <h4 class="footer-title">Services</h4>
+                        <ul class="footer-menu">
+                            <li><a href="#" class="footer-link">Web Development</a></li>
+                            <li><a href="#" class="footer-link">UI/UX Design</a></li>
+                            <li><a href="#" class="footer-link">Mobile Apps</a></li>
+                            <li><a href="#" class="footer-link">Brand Identity</a></li>
+                            <li><a href="#" class="footer-link">Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="footer-contact">
+                        <h4 class="footer-title">Get In Touch</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:daffa@example.com" class="contact-value">daffa@example.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Phone</span>
+                                    <a href="tel:+6281234567890" class="contact-value">+62 812-3456-7890</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Semarang, Indonesia</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="newsletter-section">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                                <div class="newsletter-content">
+                                    <h4 class="newsletter-title">Stay Updated</h4>
+                                    <p class="newsletter-description">
+                                        Subscribe to get notified about my latest projects and insights
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="newsletter-form">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control newsletter-input" placeholder="Enter your email address" id="newsletterEmail">
+                                        <button class="btn newsletter-btn" type="button" onclick="subscribeNewsletter()"><i class="fas fa-paper-plane"></i><span>Subscribe</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-12 mb-3 mb-lg-0">
+                                <div class="copyright">
+                                    <p>&copy; <span id="currentYear">2024</span> DaffaWorks. All rights reserved.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="footer-bottom-links">
+                                    <a href="#" class="bottom-link">Privacy Policy</a>
+                                    <a href="#" class="bottom-link">Terms of Service</a>
+                                    <a href="#" class="bottom-link">Sitemap</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></div>
+        
+        <div class="footer-bg-elements">
+            <div class="footer-bg-shape footer-bg-shape-1"></div>
+            <div class="footer-bg-shape footer-bg-shape-2"></div>
+            <div class="footer-bg-shape footer-bg-shape-3"></div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
