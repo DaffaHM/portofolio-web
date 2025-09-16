@@ -116,6 +116,7 @@ body {
     min-height: 100vh;
     position: relative;
     overflow: hidden;
+    
 }
 
 /* Animated Background Particles */
@@ -213,6 +214,7 @@ body {
     opacity: 0;
     transform: translateY(40px);
     animation: fadeInUp 1s ease-out 1.3s forwards;
+    
 }
 
 .btn-primary-custom {

@@ -83,8 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const texts = [
         "a web developer and designer",
         "a creative problem solver",
-        "a digital innovator",
-        "passionate about UI/UX"
+        "Economics Student",
     ];
     let textIndex = 0;
     let charIndex = 0;
